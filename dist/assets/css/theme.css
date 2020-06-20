@@ -14061,6 +14061,10 @@ article table {
 .docs-graphic:not(:hover) .btn {
   opacity: 0; }
 
+a:hover {
+  color: #45171D;
+  opacity: 0.8; }
+
 .nao-essencialista-card, .essencialista-card {
   padding-top: 15px; }
 
