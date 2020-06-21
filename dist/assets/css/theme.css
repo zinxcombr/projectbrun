@@ -14061,6 +14061,12 @@ article table {
 .docs-graphic:not(:hover) .btn {
   opacity: 0; }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #45171D; }
+
 a:hover {
   color: #45171D;
   opacity: 0.8; }
