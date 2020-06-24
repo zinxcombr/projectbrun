@@ -14061,6 +14061,9 @@ article table {
 .docs-graphic:not(:hover) .btn {
   opacity: 0; }
 
+.icon {
+  height: 30px; }
+
 .navbar-dark .navbar-nav .nav-link {
   color: white; }
 
