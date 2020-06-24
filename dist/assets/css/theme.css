@@ -14061,6 +14061,9 @@ article table {
 .docs-graphic:not(:hover) .btn {
   opacity: 0; }
 
+li:first-child {
+  display: none; }
+
 .icon {
   height: 30px; }
 
