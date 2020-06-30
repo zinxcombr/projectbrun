@@ -1,0 +1,179 @@
+section { border: 2px dotted #000; }
+
+.pull-right {
+	float: right; position: absolute; top: 5px; right: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
+
+
+.tarefas {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!========================================================================
+* File: bootstrap-iconpicker.css v1.10.0 by @victor-valencia
+* https://victor-valencia.github.com/bootstrap-iconpicker
+* ========================================================================
+* Copyright 2013-2018 Victor Valencia Rico.
+* Licensed under MIT license.
+* https://github.com/victor-valencia/bootstrap-iconpicker/blob/master/LICENSE
+* ========================================================================
+*/
+
+.iconpicker .caret {
+    margin-left: 10px !important;
+}
+
+.iconpicker {
+    min-width: 60px;
+}
+
+.iconpicker input.search-control {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+div.iconpicker.left .table-icons {
+    margin-right: auto;
+}
+
+div.iconpicker.center .table-icons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.iconpicker.right .table-icons {
+    margin-left: auto;
+}
+
+.table-icons .btn {
+    min-height: 30px;
+    min-width: 35px;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
+
+.table-icons td {
+    min-width: 39px;
+}
+
+.popover {
+    max-width: inherit !important;
+}
+
+.iconpicker-popover {
+  z-index: 1050 !important;
+}
+
+.iconpicker-popover .search-control {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-group-item {
+  user-select: none;
+}
+
+.list-group input[type="checkbox"] {
+  display: none;
+}
+
+.list-group input[type="checkbox"] + .list-group-item {
+  cursor: pointer;
+}
+
+.list-group input[type="checkbox"] + .list-group-item:before {
+  content: "\2713";
+  color: transparent;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item {
+  background-color: #0275D8;
+  color: #FFF;
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item:before {
+  color: inherit;
+}
+
+.list-group input[type="radio"] {
+  display: none;
+}
+
+.list-group input[type="radio"] + .list-group-item {
+  cursor: pointer;
+}
+
+.list-group input[type="radio"] + .list-group-item:before {
+  content: "\2022";
+  color: transparent;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.list-group input[type="radio"]:checked + .list-group-item {
+  background-color: #0275D8;
+  color: #FFF;
+}
+
+.list-group input[type="radio"]:checked + .list-group-item:before {
+  color: inherit;
+}
